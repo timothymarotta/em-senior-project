@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E625DF513B00BE79F9 /* AppDelegate.swift */; };
+		DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E825DF513B00BE79F9 /* ContentView.swift */; };
+		DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE5021EA25DF513B00BE79F9 /* Experience.rcproject */; };
+		DE5021ED25DF513C00BE79F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5021EC25DF513C00BE79F9 /* Assets.xcassets */; };
+		DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5021EF25DF513C00BE79F9 /* Preview Assets.xcassets */; };
+		DE5021FB25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021FA25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift */; };
+		DE50220625DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50220525DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5021F725DF513C00BE79F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5021DB25DF513B00BE79F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5021E225DF513B00BE79F9;
+			remoteInfo = "Kiwi Cosmonaut";
+		};
+		DE50220225DF513C00BE79F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5021DB25DF513B00BE79F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5021E225DF513B00BE79F9;
+			remoteInfo = "Kiwi Cosmonaut";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiwi Cosmonaut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5021E625DF513B00BE79F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE5021E825DF513B00BE79F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE5021EA25DF513B00BE79F9 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		DE5021EC25DF513C00BE79F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE5021EF25DF513C00BE79F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5021F125DF513C00BE79F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5021F625DF513C00BE79F9 /* Kiwi CosmonautTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kiwi CosmonautTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5021FA25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiwi_CosmonautTests.swift; sourceTree = "<group>"; };
+		DE5021FC25DF513C00BE79F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE50220125DF513C00BE79F9 /* Kiwi CosmonautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kiwi CosmonautUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE50220525DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiwi_CosmonautUITests.swift; sourceTree = "<group>"; };
+		DE50220725DF513D00BE79F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5021E025DF513B00BE79F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021F325DF513C00BE79F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021FE25DF513C00BE79F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5021DA25DF513B00BE79F9 = {
+			isa = PBXGroup;
+			children = (
+				DE5021E525DF513B00BE79F9 /* Kiwi Cosmonaut */,
+				DE5021F925DF513C00BE79F9 /* Kiwi CosmonautTests */,
+				DE50220425DF513C00BE79F9 /* Kiwi CosmonautUITests */,
+				DE5021E425DF513B00BE79F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5021E425DF513B00BE79F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */,
+				DE5021F625DF513C00BE79F9 /* Kiwi CosmonautTests.xctest */,
+				DE50220125DF513C00BE79F9 /* Kiwi CosmonautUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5021E525DF513B00BE79F9 /* Kiwi Cosmonaut */ = {
+			isa = PBXGroup;
+			children = (
+				DE5021E625DF513B00BE79F9 /* AppDelegate.swift */,
+				DE5021E825DF513B00BE79F9 /* ContentView.swift */,
+				DE5021EA25DF513B00BE79F9 /* Experience.rcproject */,
+				DE5021EC25DF513C00BE79F9 /* Assets.xcassets */,
+				DE5021F125DF513C00BE79F9 /* Info.plist */,
+				DE5021EE25DF513C00BE79F9 /* Preview Content */,
+			);
+			path = "Kiwi Cosmonaut";
+			sourceTree = "<group>";
+		};
+		DE5021EE25DF513C00BE79F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE5021EF25DF513C00BE79F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE5021F925DF513C00BE79F9 /* Kiwi CosmonautTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5021FA25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift */,
+				DE5021FC25DF513C00BE79F9 /* Info.plist */,
+			);
+			path = "Kiwi CosmonautTests";
+			sourceTree = "<group>";
+		};
+		DE50220425DF513C00BE79F9 /* Kiwi CosmonautUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE50220525DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift */,
+				DE50220725DF513D00BE79F9 /* Info.plist */,
+			);
+			path = "Kiwi CosmonautUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5021E225DF513B00BE79F9 /* Kiwi Cosmonaut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50220A25DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi Cosmonaut" */;
+			buildPhases = (
+				DE5021DF25DF513B00BE79F9 /* Sources */,
+				DE5021E025DF513B00BE79F9 /* Frameworks */,
+				DE5021E125DF513B00BE79F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kiwi Cosmonaut";
+			productName = "Kiwi Cosmonaut";
+			productReference = DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5021F525DF513C00BE79F9 /* Kiwi CosmonautTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50220D25DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi CosmonautTests" */;
+			buildPhases = (
+				DE5021F225DF513C00BE79F9 /* Sources */,
+				DE5021F325DF513C00BE79F9 /* Frameworks */,
+				DE5021F425DF513C00BE79F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5021F825DF513C00BE79F9 /* PBXTargetDependency */,
+			);
+			name = "Kiwi CosmonautTests";
+			productName = "Kiwi CosmonautTests";
+			productReference = DE5021F625DF513C00BE79F9 /* Kiwi CosmonautTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE50220025DF513C00BE79F9 /* Kiwi CosmonautUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50221025DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi CosmonautUITests" */;
+			buildPhases = (
+				DE5021FD25DF513C00BE79F9 /* Sources */,
+				DE5021FE25DF513C00BE79F9 /* Frameworks */,
+				DE5021FF25DF513C00BE79F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE50220325DF513C00BE79F9 /* PBXTargetDependency */,
+			);
+			name = "Kiwi CosmonautUITests";
+			productName = "Kiwi CosmonautUITests";
+			productReference = DE50220125DF513C00BE79F9 /* Kiwi CosmonautUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5021DB25DF513B00BE79F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DE5021E225DF513B00BE79F9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DE5021F525DF513C00BE79F9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DE5021E225DF513B00BE79F9;
+					};
+					DE50220025DF513C00BE79F9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DE5021E225DF513B00BE79F9;
+					};
+				};
+			};
+			buildConfigurationList = DE5021DE25DF513B00BE79F9 /* Build configuration list for PBXProject "Kiwi Cosmonaut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5021DA25DF513B00BE79F9;
+			productRefGroup = DE5021E425DF513B00BE79F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5021E225DF513B00BE79F9 /* Kiwi Cosmonaut */,
+				DE5021F525DF513C00BE79F9 /* Kiwi CosmonautTests */,
+				DE50220025DF513C00BE79F9 /* Kiwi CosmonautUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5021E125DF513B00BE79F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */,
+				DE5021ED25DF513C00BE79F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021F425DF513C00BE79F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021FF25DF513C00BE79F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5021DF25DF513B00BE79F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */,
+				DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */,
+				DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021F225DF513C00BE79F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5021FB25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5021FD25DF513C00BE79F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50220625DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5021F825DF513C00BE79F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5021E225DF513B00BE79F9 /* Kiwi Cosmonaut */;
+			targetProxy = DE5021F725DF513C00BE79F9 /* PBXContainerItemProxy */;
+		};
+		DE50220325DF513C00BE79F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5021E225DF513B00BE79F9 /* Kiwi Cosmonaut */;
+			targetProxy = DE50220225DF513C00BE79F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE50220825DF513D00BE79F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE50220925DF513D00BE79F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE50220B25DF513D00BE79F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kiwi Cosmonaut/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Kiwi Cosmonaut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-Cosmonaut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE50220C25DF513D00BE79F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kiwi Cosmonaut/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Kiwi Cosmonaut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-Cosmonaut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE50220E25DF513D00BE79F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kiwi CosmonautTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-CosmonautTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiwi Cosmonaut.app/Kiwi Cosmonaut";
+			};
+			name = Debug;
+		};
+		DE50220F25DF513D00BE79F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kiwi CosmonautTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-CosmonautTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiwi Cosmonaut.app/Kiwi Cosmonaut";
+			};
+			name = Release;
+		};
+		DE50221125DF513D00BE79F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kiwi CosmonautUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-CosmonautUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kiwi Cosmonaut";
+			};
+			name = Debug;
+		};
+		DE50221225DF513D00BE79F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kiwi CosmonautUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.projectbeacon.Kiwi-CosmonautUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kiwi Cosmonaut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5021DE25DF513B00BE79F9 /* Build configuration list for PBXProject "Kiwi Cosmonaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50220825DF513D00BE79F9 /* Debug */,
+				DE50220925DF513D00BE79F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE50220A25DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi Cosmonaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50220B25DF513D00BE79F9 /* Debug */,
+				DE50220C25DF513D00BE79F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE50220D25DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi CosmonautTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50220E25DF513D00BE79F9 /* Debug */,
+				DE50220F25DF513D00BE79F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE50221025DF513D00BE79F9 /* Build configuration list for PBXNativeTarget "Kiwi CosmonautUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50221125DF513D00BE79F9 /* Debug */,
+				DE50221225DF513D00BE79F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5021DB25DF513B00BE79F9 /* Project object */;
+}
