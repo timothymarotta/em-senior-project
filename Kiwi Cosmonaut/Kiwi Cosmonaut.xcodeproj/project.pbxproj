@@ -14,6 +14,7 @@
 		DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5021EF25DF513C00BE79F9 /* Preview Assets.xcassets */; };
 		DE5021FB25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021FA25DF513C00BE79F9 /* Kiwi_CosmonautTests.swift */; };
 		DE50220625DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50220525DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift */; };
+		DEB03D3625DF988300D7D0A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DE50220125DF513C00BE79F9 /* Kiwi CosmonautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kiwi CosmonautUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE50220525DF513C00BE79F9 /* Kiwi_CosmonautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kiwi_CosmonautUITests.swift; sourceTree = "<group>"; };
 		DE50220725DF513D00BE79F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DE5021EC25DF513C00BE79F9 /* Assets.xcassets */,
 				DE5021F125DF513C00BE79F9 /* Info.plist */,
 				DE5021EE25DF513C00BE79F9 /* Preview Content */,
+				DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */,
 			);
 			path = "Kiwi Cosmonaut";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB03D3625DF988300D7D0A1 /* Launch Screen.storyboard in Resources */,
 				DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */,
 				DE5021ED25DF513C00BE79F9 /* Assets.xcassets in Resources */,
 			);
@@ -423,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Kiwi Cosmonaut/Preview Content\"";
+				DEVELOPMENT_TEAM = 545Y3KVNMT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Kiwi Cosmonaut/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Kiwi Cosmonaut/Preview Content\"";
+				DEVELOPMENT_TEAM = 545Y3KVNMT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Kiwi Cosmonaut/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
