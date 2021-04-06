@@ -1,3 +1,12 @@
 [
-
+  {
+    "libraryIdentifier" : "a8303bd2604afcfd7caed732bebdae7e",
+    "format" : "model",
+    "displayName" : "level1.usdz"
+  },
+  {
+    "libraryIdentifier" : "d7b8ec1ac03520f02358a0d08df2be38",
+    "format" : "model",
+    "displayName" : "purplelevel.usdz"
+  }
 ]
