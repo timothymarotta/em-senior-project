@@ -8,5 +8,10 @@
     "libraryIdentifier" : "d7b8ec1ac03520f02358a0d08df2be38",
     "format" : "model",
     "displayName" : "purplelevel.usdz"
+  },
+  {
+    "libraryIdentifier" : "b27439b7756d8db634fd1d5a8cd6875c",
+    "format" : "model",
+    "displayName" : "tutLevel.usdz"
   }
 ]
