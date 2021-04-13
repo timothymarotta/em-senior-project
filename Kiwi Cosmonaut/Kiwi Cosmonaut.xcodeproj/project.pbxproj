@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FF247D5262645B400B3C116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF247D4262645B400B3C116 /* Main.storyboard */; };
+		5FF247E02626491500B3C116 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF247DF2626491500B3C116 /* LevelsViewController.swift */; };
+		5FF247F026264A4600B3C116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF247EF26264A4600B3C116 /* ViewController.swift */; };
+		5FF247F526264D7400B3C116 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF247F426264D7400B3C116 /* CreditsViewController.swift */; };
 		DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E625DF513B00BE79F9 /* AppDelegate.swift */; };
 		DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E825DF513B00BE79F9 /* ContentView.swift */; };
 		DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE5021EA25DF513B00BE79F9 /* Experience.rcproject */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FF247D4262645B400B3C116 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5FF247DF2626491500B3C116 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		5FF247EF26264A4600B3C116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FF247F426264D7400B3C116 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiwi Cosmonaut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5021E625DF513B00BE79F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5021E825DF513B00BE79F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,11 +109,15 @@
 			children = (
 				DE5021E625DF513B00BE79F9 /* AppDelegate.swift */,
 				DE5021E825DF513B00BE79F9 /* ContentView.swift */,
+				5FF247DF2626491500B3C116 /* LevelsViewController.swift */,
+				5FF247F426264D7400B3C116 /* CreditsViewController.swift */,
+				5FF247EF26264A4600B3C116 /* ViewController.swift */,
 				DE5021EA25DF513B00BE79F9 /* Experience.rcproject */,
 				DE5021EC25DF513C00BE79F9 /* Assets.xcassets */,
 				DE5021F125DF513C00BE79F9 /* Info.plist */,
 				DE5021EE25DF513C00BE79F9 /* Preview Content */,
 				DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */,
+				5FF247D4262645B400B3C116 /* Main.storyboard */,
 			);
 			path = "Kiwi Cosmonaut";
 			sourceTree = "<group>";
@@ -242,6 +254,7 @@
 				DEB03D3625DF988300D7D0A1 /* Launch Screen.storyboard in Resources */,
 				DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */,
 				DE5021ED25DF513C00BE79F9 /* Assets.xcassets in Resources */,
+				5FF247D5262645B400B3C116 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF247F026264A4600B3C116 /* ViewController.swift in Sources */,
+				5FF247F526264D7400B3C116 /* CreditsViewController.swift in Sources */,
 				DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */,
 				DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */,
 				DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */,
+				5FF247E02626491500B3C116 /* LevelsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
