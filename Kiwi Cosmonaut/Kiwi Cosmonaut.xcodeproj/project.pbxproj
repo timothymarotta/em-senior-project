@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3889042627DED100440D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3889032627DED100440D85 /* Main.storyboard */; };
+		DE38890D2627E6D600440D85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38890C2627E6D600440D85 /* HomeViewController.swift */; };
 		DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E625DF513B00BE79F9 /* AppDelegate.swift */; };
 		DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E825DF513B00BE79F9 /* ContentView.swift */; };
 		DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE5021EA25DF513B00BE79F9 /* Experience.rcproject */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE3889032627DED100440D85 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DE38890C2627E6D600440D85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiwi Cosmonaut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5021E625DF513B00BE79F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5021E825DF513B00BE79F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE0A31912628BB2700BC4F6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A31922628BB2E00BC4F6D /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE0A31922628BB2E00BC4F6D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DE3889082627E53200440D85 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE38890C2627E6D600440D85 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		DE5021DA25DF513B00BE79F9 = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +129,13 @@
 				DE5021E625DF513B00BE79F9 /* AppDelegate.swift */,
 				DE5021E825DF513B00BE79F9 /* ContentView.swift */,
 				DE5021EA25DF513B00BE79F9 /* Experience.rcproject */,
+				DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */,
+				DE3889032627DED100440D85 /* Main.storyboard */,
 				DE5021EC25DF513C00BE79F9 /* Assets.xcassets */,
 				DE5021F125DF513C00BE79F9 /* Info.plist */,
+				DE3889082627E53200440D85 /* View Controllers */,
+				DE0A31912628BB2700BC4F6D /* Resources */,
 				DE5021EE25DF513C00BE79F9 /* Preview Content */,
-				DEB03D3525DF988300D7D0A1 /* Launch Screen.storyboard */,
 			);
 			path = "Kiwi Cosmonaut";
 			sourceTree = "<group>";
@@ -242,6 +272,7 @@
 				DEB03D3625DF988300D7D0A1 /* Launch Screen.storyboard in Resources */,
 				DE5021F025DF513C00BE79F9 /* Preview Assets.xcassets in Resources */,
 				DE5021ED25DF513C00BE79F9 /* Assets.xcassets in Resources */,
+				DE3889042627DED100440D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +300,7 @@
 				DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */,
 				DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */,
 				DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */,
+				DE38890D2627E6D600440D85 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
