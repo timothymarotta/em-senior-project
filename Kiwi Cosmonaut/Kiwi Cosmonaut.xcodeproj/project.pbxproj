@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F8E2D08262DF19000FE53E3 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E2D07262DF19000FE53E3 /* LevelViewController.swift */; };
+		5F8E2D0D262DF20800FE53E3 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E2D0C262DF20800FE53E3 /* ARViewController.swift */; };
+		5F8E2D18262E088600FE53E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E2D17262E088600FE53E3 /* HomeViewController.swift */; };
 		DE3889042627DED100440D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3889032627DED100440D85 /* Main.storyboard */; };
 		DE38890D2627E6D600440D85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38890C2627E6D600440D85 /* HomeViewController.swift */; };
 		DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5021E625DF513B00BE79F9 /* AppDelegate.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F8E2D07262DF19000FE53E3 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		5F8E2D0C262DF20800FE53E3 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5F8E2D17262E088600FE53E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE3889032627DED100440D85 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DE38890C2627E6D600440D85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE5021E325DF513B00BE79F9 /* Kiwi Cosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiwi Cosmonaut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,9 @@
 		DE5021E525DF513B00BE79F9 /* Kiwi Cosmonaut */ = {
 			isa = PBXGroup;
 			children = (
+				5F8E2D17262E088600FE53E3 /* HomeViewController.swift */,
+				5F8E2D0C262DF20800FE53E3 /* ARViewController.swift */,
+				5F8E2D07262DF19000FE53E3 /* LevelViewController.swift */,
 				DE5021E625DF513B00BE79F9 /* AppDelegate.swift */,
 				DE5021E825DF513B00BE79F9 /* ContentView.swift */,
 				DE5021EA25DF513B00BE79F9 /* Experience.rcproject */,
@@ -298,8 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5021E925DF513B00BE79F9 /* ContentView.swift in Sources */,
+				5F8E2D08262DF19000FE53E3 /* LevelViewController.swift in Sources */,
 				DE5021E725DF513B00BE79F9 /* AppDelegate.swift in Sources */,
+				5F8E2D0D262DF20800FE53E3 /* ARViewController.swift in Sources */,
 				DE5021EB25DF513B00BE79F9 /* Experience.rcproject in Sources */,
+				5F8E2D18262E088600FE53E3 /* HomeViewController.swift in Sources */,
 				DE38890D2627E6D600440D85 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -223,7 +223,7 @@
         <!--AR Level View-->
         <scene sceneID="3SY-if-rJE">
             <objects>
-                <viewController title="AR Level View" id="sWT-m4-tKo" sceneMemberID="viewController">
+                <viewController title="AR Level View" id="sWT-m4-tKo" customClass="ARViewController" customModule="Kiwi_Cosmonaut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vFi-I1-fyc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,6 +237,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="Sff-3B-9dT"/>
+                    <connections>
+                        <outlet property="arView" destination="egp-Bt-T1H" id="c0q-Fq-PhU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BbZ-0O-GRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,8 +370,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vBz-gJ-3Vm"/>
-        <segue reference="Z2l-kw-daR"/>
+        <segue reference="nrg-j1-W8k"/>
+        <segue reference="IMC-cf-uU0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="5da8bbde9d5be8e8b557a608a4c3b265" width="257" height="254.5"/>
