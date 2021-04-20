@@ -254,7 +254,7 @@
                                 <rect key="frame" x="-127" y="-9" width="667" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 10" translatesAutoresizingMaskIntoConstraints="NO" id="ljA-wF-ZDf">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 10" translatesAutoresizingMaskIntoConstraints="NO" id="ljA-wF-ZDf">
                                 <rect key="frame" x="-29" y="115" width="471" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -295,7 +295,7 @@
                                 <rect key="frame" x="-127" y="-9" width="667" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 11" translatesAutoresizingMaskIntoConstraints="NO" id="mLu-Ad-Arq">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 11" translatesAutoresizingMaskIntoConstraints="NO" id="mLu-Ad-Arq">
                                 <rect key="frame" x="-221" y="115" width="857" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -336,7 +336,7 @@
                                 <rect key="frame" x="-127" y="-9" width="667" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 12" translatesAutoresizingMaskIntoConstraints="NO" id="FDe-4u-Q4v">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 12" translatesAutoresizingMaskIntoConstraints="NO" id="FDe-4u-Q4v">
                                 <rect key="frame" x="-92" y="115" width="599" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -367,8 +367,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vBz-gJ-3Vm"/>
-        <segue reference="Z2l-kw-daR"/>
+        <segue reference="nrg-j1-W8k"/>
+        <segue reference="leP-Ye-WqZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="5da8bbde9d5be8e8b557a608a4c3b265" width="257" height="254.5"/>
