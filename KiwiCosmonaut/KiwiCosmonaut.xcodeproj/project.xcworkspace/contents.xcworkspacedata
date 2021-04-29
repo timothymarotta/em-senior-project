@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../KiwiCosmonaut/Fonts/ethnocentric rg.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../KiwiCosmonaut/Fonts/NeuzeitGro-Bla.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../KiwiCosmonaut/Fonts/NeuzeitGro-Reg.ttf">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

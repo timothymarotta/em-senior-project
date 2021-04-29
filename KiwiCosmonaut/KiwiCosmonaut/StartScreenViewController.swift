@@ -9,5 +9,11 @@ import Foundation
 import UIKit
 
 class StartScreenViewController: UIViewController {
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var settingsButton: UIButton!
+    @IBOutlet weak var creditsButton: UIButton!
     
+    @IBAction func startButtonPressed(_ sender: Any) {
+    
+    }
 }
