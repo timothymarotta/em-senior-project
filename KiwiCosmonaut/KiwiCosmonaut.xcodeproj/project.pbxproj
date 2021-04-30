@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F89572E26323BCC003A2BAE /* 3DAssets in Resources */ = {isa = PBXBuildFile; fileRef = 5F89572D26323BCC003A2BAE /* 3DAssets */; };
 		DE8A14A8262F62FC009A7185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A7262F62FC009A7185 /* AppDelegate.swift */; };
 		DE8A14AA262F62FC009A7185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A9262F62FC009A7185 /* ViewController.swift */; };
 		DE8A14AC262F62FC009A7185 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14AB262F62FC009A7185 /* Experience.rcproject */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F89572D26323BCC003A2BAE /* 3DAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 3DAssets; sourceTree = "<group>"; };
 		DE8A14A4262F62FC009A7185 /* KiwiCosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCosmonaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A14A7262F62FC009A7185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8A14A9262F62FC009A7185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				DE8A14A7262F62FC009A7185 /* AppDelegate.swift */,
 				DE8A14A9262F62FC009A7185 /* ViewController.swift */,
 				DE8A14AB262F62FC009A7185 /* Experience.rcproject */,
+				5F89572D26323BCC003A2BAE /* 3DAssets */,
 				DE8A14AD262F62FC009A7185 /* Main.storyboard */,
 				DE8A14B0262F62FD009A7185 /* Assets.xcassets */,
 				DE8A14B2262F62FD009A7185 /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F89572E26323BCC003A2BAE /* 3DAssets in Resources */,
 				DE8A14B4262F62FD009A7185 /* LaunchScreen.storyboard in Resources */,
 				DE8A14B1262F62FD009A7185 /* Assets.xcassets in Resources */,
 				DE8A14AF262F62FC009A7185 /* Main.storyboard in Resources */,
