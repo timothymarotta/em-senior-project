@@ -63,7 +63,7 @@ class ViewController: UIViewController{
     
     func placeObject(named entityName:String, for anchor: ARAnchor){
         
-        //let entity = try! ModelEntity.loadModel(named: entityName)
+        //sets level zero for the scene entity. 
         let entity = try! Experience.loadLevelZero()
     
         //allows you to move it into the scene
