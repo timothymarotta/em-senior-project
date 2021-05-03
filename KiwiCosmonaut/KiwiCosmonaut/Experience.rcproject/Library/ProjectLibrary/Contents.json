@@ -1,3 +1,392 @@
 [
-
+  {
+    "libraryIdentifier" : "e36efd9084f2a580386b9bcc1b6afb8c",
+    "format" : "model",
+    "displayName" : "topfloor.usdz"
+  },
+  {
+    "libraryIdentifier" : "f11b79bae2f17a47c4d2cbad913f274a",
+    "format" : "model",
+    "displayName" : "topfloor2.usdz"
+  },
+  {
+    "libraryIdentifier" : "65a1d30c0f9afd16b31720f0e9f8d954",
+    "format" : "model",
+    "displayName" : "spiderbombs.usdz"
+  },
+  {
+    "libraryIdentifier" : "d3cf8d2ded6bafaf9ef8739959c4f88d",
+    "format" : "model",
+    "displayName" : "topwall.usdz"
+  },
+  {
+    "libraryIdentifier" : "8e3b4167c358102f43093f45dc9b4cfc",
+    "format" : "model",
+    "displayName" : "decor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "383a09777a6c4cc9abdbbb4ef634433e",
+    "format" : "model",
+    "displayName" : "toprightrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "92924e59262eae252a700ac7c9f506bf",
+    "format" : "model",
+    "displayName" : "topfrontrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "13ee62184ad6f09b7275c49ba7e4a358",
+    "format" : "model",
+    "displayName" : "topleftrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "9ab983d8f5dbfa9aa8dfd7a1fc6d04e5",
+    "format" : "model",
+    "displayName" : "toplastrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "cda92748640f957692407fb72e7c59a3",
+    "format" : "model",
+    "displayName" : "ramp.usdz"
+  },
+  {
+    "libraryIdentifier" : "6e6181285c47718d2401714d419ad473",
+    "format" : "model",
+    "displayName" : "ramplightleft.usdz"
+  },
+  {
+    "libraryIdentifier" : "6f0aafd294db4ff3c2ba37bcb17bb8f8",
+    "format" : "model",
+    "displayName" : "ramplightright.usdz"
+  },
+  {
+    "libraryIdentifier" : "51ae6a585acbdb9b33a211b2f0deeab1",
+    "format" : "model",
+    "displayName" : "bottomfloorfront.usdz"
+  },
+  {
+    "libraryIdentifier" : "00216f6db8ff18dea6ee72d08f37741f",
+    "format" : "model",
+    "displayName" : "deskfront.usdz"
+  },
+  {
+    "libraryIdentifier" : "523f78465ba585365b87fec85e362943",
+    "format" : "model",
+    "displayName" : "deskmiddle.usdz"
+  },
+  {
+    "libraryIdentifier" : "d0fed1cf9733879f037ead343536647a",
+    "format" : "model",
+    "displayName" : "deskback.usdz"
+  },
+  {
+    "libraryIdentifier" : "fc0cd41e89c656c4f537b230cac1b052",
+    "format" : "model",
+    "displayName" : "chairsclose.usdz"
+  },
+  {
+    "libraryIdentifier" : "aec1af1a4dc3a8b9d5d6ec38eacf88ae",
+    "format" : "model",
+    "displayName" : "chairsfar.usdz"
+  },
+  {
+    "libraryIdentifier" : "b28140288573a55b6fa1492d369d3473",
+    "format" : "model",
+    "displayName" : "lightthing.usdz"
+  },
+  {
+    "libraryIdentifier" : "f3ac6e513c4b6e2f27cfe1d16b0e1fa8",
+    "format" : "model",
+    "displayName" : "lowerrailingfront.usdz"
+  },
+  {
+    "libraryIdentifier" : "bddd0efde1d3d06acb5ab3e6519c37d4",
+    "format" : "model",
+    "displayName" : "lowerrailingmiddle.usdz"
+  },
+  {
+    "libraryIdentifier" : "0983befa5d024f043bdec75f2fae83b2",
+    "format" : "model",
+    "displayName" : "helmet.usdz"
+  },
+  {
+    "libraryIdentifier" : "f239687b872dfc3118b8deee1dcce021",
+    "format" : "model",
+    "displayName" : "angledpanel.usdz"
+  },
+  {
+    "libraryIdentifier" : "99d1c7e9838d99c3ccd50d0027c6ecfc",
+    "format" : "model",
+    "displayName" : "angledthingleft.usdz"
+  },
+  {
+    "libraryIdentifier" : "af8a09ae509c5eb7129b967ea0be3be0",
+    "format" : "model",
+    "displayName" : "triangleright.usdz"
+  },
+  {
+    "libraryIdentifier" : "9f08772b86987ab54372832e85fafd15",
+    "format" : "model",
+    "displayName" : "angledthingright.usdz"
+  },
+  {
+    "libraryIdentifier" : "faff469611ae50b4b58098a4c8ec5ea2",
+    "format" : "model",
+    "displayName" : "leftpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "ae31c1b8058f2e87cd327c9e2cac7ba3",
+    "format" : "model",
+    "displayName" : "farlowerrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "d1fd3aa54899e44b912830018c3a2b8c",
+    "format" : "model",
+    "displayName" : "rightpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "8e3b2a092aa49a5872ac01db7437f041",
+    "format" : "model",
+    "displayName" : "toprightpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "b5660ea25b5979e7b6691332f5e45eab",
+    "format" : "model",
+    "displayName" : "lastfloor.usdz"
+  },
+  {
+    "libraryIdentifier" : "9e457da12dc0098117a7b1d87eef5641",
+    "format" : "model",
+    "displayName" : "door.usdz"
+  },
+  {
+    "libraryIdentifier" : "56eb57f0b44c76ffb794928ad6be7b91",
+    "format" : "model",
+    "displayName" : "pipecluster.usdz"
+  },
+  {
+    "libraryIdentifier" : "1ae29e27f67c17bf1d9cab2807d029e2",
+    "format" : "model",
+    "displayName" : "pipeblock.usdz"
+  },
+  {
+    "libraryIdentifier" : "97172e27a5d8e78098c839f1d1feff8e",
+    "format" : "model",
+    "displayName" : "longleftpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "2e34492b5f82d81371efc857b8de2ecc",
+    "format" : "model",
+    "displayName" : "doubleleftpipes.usdz"
+  },
+  {
+    "libraryIdentifier" : "b5a1330870569d0d3d0c63d84e683b75",
+    "format" : "model",
+    "displayName" : "shortrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "0669c22bf8c23d80c5732f230b007b03",
+    "format" : "model",
+    "displayName" : "longrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "2b371ffa051fa95539dccf297620785e",
+    "format" : "model",
+    "displayName" : "backrailing.usdz"
+  },
+  {
+    "libraryIdentifier" : "74bbcce71ea7b2e472433551c23b2f26",
+    "format" : "model",
+    "displayName" : "rightpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "c21d6ede7bd8109a006ed53b30553139",
+    "format" : "model",
+    "displayName" : "topdoorwallback.usdz"
+  },
+  {
+    "libraryIdentifier" : "e243570413302c44e2047848592f265b",
+    "format" : "model",
+    "displayName" : "topdoorleftwall.usdz"
+  },
+  {
+    "libraryIdentifier" : "39ddf80134a47ffb447a51c4d15972fa",
+    "format" : "model",
+    "displayName" : "5_wallBehindDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "e692f72c0e021889741d4e1b927e8df0",
+    "format" : "model",
+    "displayName" : "14_Asteroid.usdz"
+  },
+  {
+    "libraryIdentifier" : "add43018f0e362d5107fb874517b6d4e",
+    "format" : "model",
+    "displayName" : "13_longWallOnRightOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "3382f4ab014da9fddbc2cd4241d71953",
+    "format" : "model",
+    "displayName" : "7_pipeOverDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "c7a6998c374cfe2feed65ae68e23030b",
+    "format" : "model",
+    "displayName" : "6_longRightPipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "65a7013298e46577b6063b4227dc809b",
+    "format" : "model",
+    "displayName" : "2_leftDoor_Door1.usdz"
+  },
+  {
+    "libraryIdentifier" : "41c1e068855480b7ea795d73c56bf40e",
+    "format" : "model",
+    "displayName" : "4_doorFrame_Door1.usdz"
+  },
+  {
+    "libraryIdentifier" : "ca12d18ee3c4b976a5764ba71972c21e",
+    "format" : "model",
+    "displayName" : "10_angledWallLeftOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "7bdf96571697228b13482d12a8714ee6",
+    "format" : "model",
+    "displayName" : "3_rightDoor_Door1.usdz"
+  },
+  {
+    "libraryIdentifier" : "cbc562b3be6cbae8894bfc87ffe2abd0",
+    "format" : "model",
+    "displayName" : "9_floorInFrontOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "8785202a5e5ca7c591c943b6dac0461a",
+    "format" : "model",
+    "displayName" : "11_smallAngledWallRightOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "e23e6906b50b1848fedf5ebad5c07b38",
+    "format" : "model",
+    "displayName" : "1_centerPanel_Door1.usdz"
+  },
+  {
+    "libraryIdentifier" : "dfbc96a37d0b274282bcd028c872989c",
+    "format" : "model",
+    "displayName" : "8_pipeBox.usdz"
+  },
+  {
+    "libraryIdentifier" : "ce08a19162027beffa77e7bd9c01346c",
+    "format" : "model",
+    "displayName" : "12_wallOnLeftOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "5ceb88643951fe97b49daefdc4ab5bb6",
+    "format" : "model",
+    "displayName" : "longAngledWall.usdz"
+  },
+  {
+    "libraryIdentifier" : "cae92afbe1f3dae802017f60deb02170",
+    "format" : "model",
+    "displayName" : "shortAngledWall.usdz"
+  },
+  {
+    "libraryIdentifier" : "dffe9a757ed9da51fc09a165754bd8da",
+    "format" : "model",
+    "displayName" : "27_brokenPipeonLeftOfChasm.usdz"
+  },
+  {
+    "libraryIdentifier" : "10840ad21671d12211404b3ba22855b0",
+    "format" : "model",
+    "displayName" : "15_wallOnLeftOfChasm.usdz"
+  },
+  {
+    "libraryIdentifier" : "775ea89c6b1cde7835dbf8db206a2229",
+    "format" : "model",
+    "displayName" : "23_leftDoorForDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "a2647d780de131951993c22b303a8a7e",
+    "format" : "model",
+    "displayName" : "26_floorWithTurn.usdz"
+  },
+  {
+    "libraryIdentifier" : "00f922bb12106314b9b9ede47180365d",
+    "format" : "model",
+    "displayName" : "24_rightDoorForDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "378b153d7a98437be2c612b948cf6149",
+    "format" : "model",
+    "displayName" : "20_angledWallOnRightOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "b9242a6fd512cf2f8285df90dc28e9f2",
+    "format" : "model",
+    "displayName" : "28_pipeOverDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "7f86dfa02b551644e84805d82e67cb44",
+    "format" : "model",
+    "displayName" : "25_centerDoorPieceForDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "a137b1dc79cfda66d3168c14485d57f7",
+    "format" : "model",
+    "displayName" : "22_frameForDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "77998bf3cdafeee49aa4b183248c5fa7",
+    "format" : "model",
+    "displayName" : "21_wallBehindDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "be0d088d58766061d6e4ada126e6ee60",
+    "format" : "model",
+    "displayName" : "16_smallInnerDiagonalWall.usdz"
+  },
+  {
+    "libraryIdentifier" : "90315d79bf8449303f8f2e5c9857afbc",
+    "format" : "model",
+    "displayName" : "19_angledWallInnerCurve.usdz"
+  },
+  {
+    "libraryIdentifier" : "8c6ab01c1760dcadbfa2f3ffd81e66ed",
+    "format" : "model",
+    "displayName" : "18_angledWallLeftOfChasm.usdz"
+  },
+  {
+    "libraryIdentifier" : "a192ce4b530acc81bfc1433d6b9386b2",
+    "format" : "model",
+    "displayName" : "17_wallOnRightOfDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "85e67a74f75decba243b55aeab34f08b",
+    "format" : "model",
+    "displayName" : "29_farWallNextToDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "28df5a48a41ca91ee6674a8b6d76db0c",
+    "format" : "model",
+    "displayName" : "30_OutsideWallCurve1.usdz"
+  },
+  {
+    "libraryIdentifier" : "cf3fc92b5a47addb0ac0e3ade1afc6d4",
+    "format" : "model",
+    "displayName" : "32_farAngledWallNextToDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "8cad43cfce98b758dc99d816490c00f3",
+    "format" : "model",
+    "displayName" : "31_OutsideWallCurve2.usdz"
+  },
+  {
+    "libraryIdentifier" : "5ed24df2e833175ee26d704990a9931e",
+    "format" : "model",
+    "displayName" : "33_outsideAngledWallCurve.usdz"
+  },
+  {
+    "libraryIdentifier" : "8e2df70d0be9604ba21a06051cfacd95",
+    "format" : "model",
+    "displayName" : "34_pipeOnFarWallByDoor1.usdz"
+  }
 ]
