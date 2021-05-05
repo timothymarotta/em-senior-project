@@ -388,5 +388,25 @@
     "libraryIdentifier" : "8e2df70d0be9604ba21a06051cfacd95",
     "format" : "model",
     "displayName" : "34_pipeOnFarWallByDoor1.usdz"
+  },
+  {
+    "libraryIdentifier" : "39bf73e4fa8b9337231b11fc67a40a1e",
+    "format" : "model",
+    "displayName" : "staircase2.usdz"
+  },
+  {
+    "libraryIdentifier" : "c3454884727b916fcd2a58273f77d5e6",
+    "format" : "image",
+    "displayName" : "Screen Shot 2021-05-04 at 9.08.46 PM.png"
+  },
+  {
+    "libraryIdentifier" : "6982d3ef225419abf8ac79b7a6826c8d",
+    "format" : "image",
+    "displayName" : "Screen Shot 2021-05-04 at 9.10.03 PM.png"
+  },
+  {
+    "libraryIdentifier" : "edc76d73557bf1c2ccb1855968ed25c5",
+    "format" : "image",
+    "displayName" : "maxresdefault.jpeg"
   }
 ]

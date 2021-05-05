@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F786A22264232F50006EE6D /* maybe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A20264232F50006EE6D /* maybe.mp3 */; };
+		5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */; };
+		5F786A25264235A20006EE6D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A24264235A20006EE6D /* Fonts */; };
 		DE17D596262F6CA600497D19 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17D595262F6CA600497D19 /* StartScreenViewController.swift */; };
 		DE8A14A8262F62FC009A7185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A7262F62FC009A7185 /* AppDelegate.swift */; };
 		DE8A14AA262F62FC009A7185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A9262F62FC009A7185 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maybe.mp3; path = ../../../../../Downloads/maybe.mp3; sourceTree = "<group>"; };
+		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Troubled_Chat_Bots.mp3; path = ../../../../../Downloads/Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
+		5F786A24264235A20006EE6D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../Fonts; sourceTree = "<group>"; };
 		DE17D595262F6CA600497D19 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		DE8A14A4262F62FC009A7185 /* KiwiCosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCosmonaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A14A7262F62FC009A7185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,9 +115,12 @@
 		DE8A14A6262F62FC009A7185 /* KiwiCosmonaut */ = {
 			isa = PBXGroup;
 			children = (
+				5F786A20264232F50006EE6D /* maybe.mp3 */,
+				5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */,
 				DE8A14A7262F62FC009A7185 /* AppDelegate.swift */,
 				DE8A14A9262F62FC009A7185 /* ViewController.swift */,
 				DEBE5F6426392C580062A73C /* Fonts */,
+				5F786A24264235A20006EE6D /* Fonts */,
 				DE8A14AB262F62FC009A7185 /* Experience.rcproject */,
 				DE8A14AD262F62FC009A7185 /* Main.storyboard */,
 				DE8A14B0262F62FD009A7185 /* Assets.xcassets */,
@@ -254,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F786A22264232F50006EE6D /* maybe.mp3 in Resources */,
 				DEBE5F6A26392C920062A73C /* NeuzeitGro-Bla.ttf in Resources */,
 				DE8A14B4262F62FD009A7185 /* LaunchScreen.storyboard in Resources */,
+				5F786A25264235A20006EE6D /* Fonts in Resources */,
+				5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */,
 				DEBE5F6826392C920062A73C /* NeuzeitGro-Reg.ttf in Resources */,
 				DE8A14B1262F62FD009A7185 /* Assets.xcassets in Resources */,
 				DEBE5F6926392C920062A73C /* ethnocentric rg.ttf in Resources */,
