@@ -44,10 +44,6 @@
                                     <segue destination="UEf-fQ-wFx" kind="show" id="Zrg-M4-xpL"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-rm-mWA">
-                                <rect key="frame" x="107" y="255" width="201" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmB-DG-RYl">
                                 <rect key="frame" x="141" y="664" width="133" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -56,6 +52,10 @@
                                     <segue destination="hhY-cm-5ZK" kind="show" id="KME-aw-cYv"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-rm-mWA">
+                                <rect key="frame" x="156" y="256" width="103" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mx7-y5-eHe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llN-Th-RZT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1778" y="134"/>
+            <point key="canvasLocation" x="-1778.2608695652175" y="133.92857142857142"/>
         </scene>
         <!--Credits-->
         <scene sceneID="eba-d6-lHZ">
