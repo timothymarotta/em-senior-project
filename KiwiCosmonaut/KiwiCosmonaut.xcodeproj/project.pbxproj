@@ -45,8 +45,8 @@
 
 /* Begin PBXFileReference section */
 		5F56A24C26483B800003786C /* game_music_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music_1.mp3; sourceTree = "<group>"; };
-		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maybe.mp3; path = ../../../../../Downloads/maybe.mp3; sourceTree = "<group>"; };
-		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Troubled_Chat_Bots.mp3; path = ../../../../../Downloads/Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
+		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maybe.mp3; sourceTree = "<group>"; };
+		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
 		5F786A24264235A20006EE6D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../Fonts; sourceTree = "<group>"; };
 		DE17D595262F6CA600497D19 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		DE8A14A4262F62FC009A7185 /* KiwiCosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCosmonaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
