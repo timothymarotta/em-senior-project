@@ -7,13 +7,36 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class StartScreenViewController: UIViewController {
+    
+    var player:AVAudioPlayer = AVAudioPlayer()
+    
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var creditsButton: UIButton!
     
     @IBAction func startButtonPressed(_ sender: Any) {
-    
+        player.stop()
+        
     }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        do
+        {
+            let audioPath = Bundle.main.path(forResource: "maybe", ofType: "mp3")
+            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch{
+            //ERROR
+        }
+        player.play()
+        player.numberOfLoops = -1
+    }
+    
+    
 }

@@ -2,13 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../KiwiCosmonaut/Fonts/ethnocentric rg.ttf">
+      location = "group:/Users/catherinefiore/Documents/GitHub/em-senior-project/KiwiCosmonaut/KiwiCosmonaut/maybe.mp3">
    </FileRef>
    <FileRef
-      location = "group:../KiwiCosmonaut/Fonts/NeuzeitGro-Bla.ttf">
-   </FileRef>
-   <FileRef
-      location = "group:../KiwiCosmonaut/Fonts/NeuzeitGro-Reg.ttf">
+      location = "group:/Users/catherinefiore/Documents/GitHub/em-senior-project/KiwiCosmonaut/KiwiCosmonaut/Troubled_Chat_Bots.mp3">
    </FileRef>
    <FileRef
       location = "self:">
