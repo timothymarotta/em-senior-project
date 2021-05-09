@@ -18,7 +18,7 @@ class StartScreenViewController: UIViewController {
     @IBOutlet weak var creditsButton: UIButton!
     
     @IBAction func startButtonPressed(_ sender: Any) {
-        player.stop()
+        //player.stop()
         
     }
     
@@ -28,7 +28,7 @@ class StartScreenViewController: UIViewController {
         
         do
         {
-            let audioPath = Bundle.main.path(forResource: "maybe", ofType: "mp3")
+            let audioPath = Bundle.main.path(forResource: "game_music_1", ofType: "mp3")
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
         }
         catch{

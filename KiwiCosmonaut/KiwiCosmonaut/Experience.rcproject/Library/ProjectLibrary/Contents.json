@@ -803,5 +803,15 @@
     "libraryIdentifier" : "e1afd179fdaaaf421b727a5cda0370e0",
     "format" : "model",
     "displayName" : "doubleleftpipe.usdz"
+  },
+  {
+    "libraryIdentifier" : "ab786322a23f6c5835a74e300a0b947a",
+    "format" : "audio",
+    "displayName" : "game_music_1.mp3"
+  },
+  {
+    "libraryIdentifier" : "75e6ddcb2119002b27189aa7f03e4271",
+    "format" : "audio",
+    "displayName" : "Troubled_Chat_Bots.mp3"
   }
 ]

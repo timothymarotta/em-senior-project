@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F56A24D26483B810003786C /* game_music_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F56A24C26483B800003786C /* game_music_1.mp3 */; };
 		5F786A22264232F50006EE6D /* maybe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A20264232F50006EE6D /* maybe.mp3 */; };
 		5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */; };
 		5F786A25264235A20006EE6D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A24264235A20006EE6D /* Fonts */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F56A24C26483B800003786C /* game_music_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music_1.mp3; sourceTree = "<group>"; };
 		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maybe.mp3; path = ../../../../../Downloads/maybe.mp3; sourceTree = "<group>"; };
 		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Troubled_Chat_Bots.mp3; path = ../../../../../Downloads/Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
 		5F786A24264235A20006EE6D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../Fonts; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		DE8A14A6262F62FC009A7185 /* KiwiCosmonaut */ = {
 			isa = PBXGroup;
 			children = (
+				5F56A24C26483B800003786C /* game_music_1.mp3 */,
 				5F786A20264232F50006EE6D /* maybe.mp3 */,
 				5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */,
 				DE8A14A7262F62FC009A7185 /* AppDelegate.swift */,
@@ -271,6 +274,7 @@
 				DEBE5F6826392C920062A73C /* NeuzeitGro-Reg.ttf in Resources */,
 				DE8A14B1262F62FD009A7185 /* Assets.xcassets in Resources */,
 				DEBE5F6926392C920062A73C /* ethnocentric rg.ttf in Resources */,
+				5F56A24D26483B810003786C /* game_music_1.mp3 in Resources */,
 				DE8A14AF262F62FC009A7185 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
