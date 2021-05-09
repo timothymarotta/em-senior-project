@@ -27,14 +27,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background" translatesAutoresizingMaskIntoConstraints="NO" id="SCU-bj-l1P">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-space" translatesAutoresizingMaskIntoConstraints="NO" id="SCU-bj-l1P">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main-title" translatesAutoresizingMaskIntoConstraints="NO" id="iEL-AD-SPT">
-                                <rect key="frame" x="50" y="82" width="314" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KIWI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKy-SP-9zK">
+                                <rect key="frame" x="149" y="110" width="116" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="32"/>
+                                <color key="textColor" red="0.91484922170000005" green="0.41245907549999999" blue="0.33153551819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDQ-w3-oeA">
                                 <rect key="frame" x="80" y="536" width="254" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,6 +47,11 @@
                                     <segue destination="UEf-fQ-wFx" kind="show" id="Zrg-M4-xpL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-rm-mWA">
+                                <rect key="frame" x="107" y="255" width="201" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91484922170000005" green="0.41245907549999999" blue="0.33153551819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmB-DG-RYl">
                                 <rect key="frame" x="141" y="664" width="133" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,10 +60,13 @@
                                     <segue destination="hhY-cm-5ZK" kind="show" id="KME-aw-cYv"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-rm-mWA">
-                                <rect key="frame" x="156" y="256" width="103" height="102"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COSMONAUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3k-xY-e6o">
+                                <rect key="frame" x="62" y="151" width="290" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="32"/>
+                                <color key="textColor" red="0.91484922170000005" green="0.41245907549999999" blue="0.33153551819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mx7-y5-eHe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -78,10 +89,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app-background" translatesAutoresizingMaskIntoConstraints="NO" id="DaQ-fr-xKB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-space" translatesAutoresizingMaskIntoConstraints="NO" id="DaQ-fr-xKB">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appshape-red" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-a0-40L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="modal-credits" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-a0-40L">
                                 <rect key="frame" x="33" y="178" width="348" height="540"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxB-Yr-voD">
@@ -248,28 +259,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceship" translatesAutoresizingMaskIntoConstraints="NO" id="YRJ-Ks-5VU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-levels" translatesAutoresizingMaskIntoConstraints="NO" id="YRJ-Ks-5VU">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h11-gB-F8G">
-                                <rect key="frame" x="173" y="197" width="69" height="69"/>
+                                <rect key="frame" x="173" y="228" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level Marker (Active)"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-JT-nPk">
-                                <rect key="frame" x="173" y="333" width="69" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level Marker (Locked)"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
+                                <state key="normal" title="1" backgroundImage="level-marker-active">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVi-fi-GhE">
-                                <rect key="frame" x="173" y="502" width="69" height="69"/>
+                                <rect key="frame" x="173" y="655" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level Marker-3"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f93-nI-q6K">
-                                <rect key="frame" x="173" y="675" width="69" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level Marker-4"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
+                                <state key="normal" title="3" backgroundImage="level-marker-inactive"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="levels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC9-qP-ch2">
                                 <rect key="frame" x="120.5" y="98" width="173" height="39"/>
@@ -278,6 +283,14 @@
                                 <color key="textColor" red="0.91484922170000005" green="0.41245907549999999" blue="0.33153551819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-JT-nPk">
+                                <rect key="frame" x="173" y="442" width="69" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
+                                <state key="normal" title="2" backgroundImage="level-marker-inactive">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DfD-KA-rUi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -318,23 +331,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background" translatesAutoresizingMaskIntoConstraints="NO" id="97Z-AC-XrZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-space" translatesAutoresizingMaskIntoConstraints="NO" id="97Z-AC-XrZ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Component 8 – 5" translatesAutoresizingMaskIntoConstraints="NO" id="62v-5T-EqK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="modal-paused" translatesAutoresizingMaskIntoConstraints="NO" id="62v-5T-EqK">
                                 <rect key="frame" x="13" y="100" width="389" height="697"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPH-8e-65b">
-                                <rect key="frame" x="112" y="595" width="190" height="69"/>
+                                <rect key="frame" x="112" y="596" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Resume Level"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Resume Level" backgroundImage="button-white">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwm-Kg-hqt">
-                                <rect key="frame" x="112" y="672" width="190" height="69"/>
+                                <rect key="frame" x="112" y="673" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Abort Mission"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Abort Mission" backgroundImage="button-white">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MISSION STATUS:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIt-cN-9Yp">
                                 <rect key="frame" x="81" y="156" width="253" height="32"/>
@@ -371,11 +390,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background" translatesAutoresizingMaskIntoConstraints="NO" id="Xlc-CD-0mT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-space" translatesAutoresizingMaskIntoConstraints="NO" id="Xlc-CD-0mT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-shape-green – 4" translatesAutoresizingMaskIntoConstraints="NO" id="DGV-8r-45s">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="modal-success" translatesAutoresizingMaskIntoConstraints="NO" id="DGV-8r-45s">
                                 <rect key="frame" x="13" y="100" width="389" height="697"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -394,14 +413,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rk-w6-0kO">
-                                <rect key="frame" x="112" y="615" width="190" height="69"/>
+                                <rect key="frame" x="115" y="615" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="success-home"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Home" backgroundImage="button-green">
+                                    <color key="titleColor" red="0.99215686274509807" green="0.96078431372549022" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klk-hY-SLi">
-                                <rect key="frame" x="112" y="692" width="190" height="69"/>
+                                <rect key="frame" x="112" y="693" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="success-abort"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Credits" backgroundImage="button-green">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="NWb-3R-QOO">
                                 <rect key="frame" x="112" y="275" width="190" height="230"/>
@@ -424,11 +449,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-background" translatesAutoresizingMaskIntoConstraints="NO" id="lZQ-qw-kaj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-space" translatesAutoresizingMaskIntoConstraints="NO" id="lZQ-qw-kaj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Component 8 – 3" translatesAutoresizingMaskIntoConstraints="NO" id="beU-bX-kXe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="modal-failure" translatesAutoresizingMaskIntoConstraints="NO" id="beU-bX-kXe">
                                 <rect key="frame" x="13" y="100" width="389" height="697"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -451,14 +476,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h99-xX-ABJ">
-                                <rect key="frame" x="112" y="601" width="190" height="69"/>
+                                <rect key="frame" x="112" y="602" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="failure-try"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Try Again" backgroundImage="button-red">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0l-rB-Mmr">
-                                <rect key="frame" x="112" y="678" width="190" height="69"/>
+                                <rect key="frame" x="113" y="679" width="190" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="failure-abort"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="19"/>
+                                <state key="normal" title="Abort Mission" backgroundImage="button-red">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EGE-Zv-bTN"/>
@@ -471,29 +502,23 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Abort Mission" width="190" height="69"/>
-        <image name="Component 8 – 3" width="317" height="626"/>
-        <image name="Component 8 – 5" width="317" height="626"/>
-        <image name="Level Marker (Active)" width="69" height="69"/>
-        <image name="Level Marker (Locked)" width="69" height="69"/>
-        <image name="Level Marker-3" width="69" height="69"/>
-        <image name="Level Marker-4" width="69" height="69"/>
         <image name="Pause" width="148" height="203.5"/>
-        <image name="Resume Level" width="190" height="69"/>
-        <image name="app-background" width="366.5" height="793.5"/>
-        <image name="app-shape-green – 4" width="317" height="626"/>
-        <image name="appshape-red" width="317" height="492"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="background-levels" width="562.5" height="1218"/>
+        <image name="background-space" width="366.5" height="793.5"/>
+        <image name="button-green" width="190" height="69"/>
+        <image name="button-red" width="190" height="69"/>
+        <image name="button-white" width="190" height="69"/>
         <image name="check" width="177" height="285"/>
         <image name="credits-button" width="133" height="52"/>
-        <image name="failure-abort" width="190" height="69"/>
-        <image name="failure-try" width="190" height="69"/>
-        <image name="kiwi" width="257" height="254.5"/>
-        <image name="main-title" width="318" height="84"/>
-        <image name="spaceship" width="562.5" height="1218"/>
+        <image name="kiwi" width="668.5" height="650"/>
+        <image name="level-marker-active" width="69" height="69"/>
+        <image name="level-marker-inactive" width="69" height="69"/>
+        <image name="modal-credits" width="317" height="492"/>
+        <image name="modal-failure" width="317" height="626"/>
+        <image name="modal-paused" width="317" height="626"/>
+        <image name="modal-success" width="317" height="626"/>
         <image name="start-button" width="225" height="79"/>
-        <image name="success-abort" width="190" height="69"/>
-        <image name="success-home" width="190" height="69"/>
         <image name="ufo" width="224.5" height="237"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
