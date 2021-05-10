@@ -11,25 +11,21 @@ import UIKit
 
 class LevelScreenViewController: UIViewController {
     
-    //var player:AVAudioPlayer = AVAudioPlayer()
+    @IBSegueAction func levelOne(_ coder: NSCoder) -> ARViewScene? {
+        let scene = ARViewScene(coder: NSCoder())
+        scene?.chooseScene(levelSceneString: "one")
+        return scene
+    }
     
+    @IBSegueAction func levelTwo(_ coder: NSCoder) -> ARViewScene? {
+        let scene = ARViewScene(coder: NSCoder())
+        scene?.chooseScene(levelSceneString: "two")
+        return scene
+    }
     
-
-  //  override func viewDidLoad() {
-  //      super.viewDidLoad()
-        
-//        do
-//        {
-//            let audioPath = Bundle.main.path(forResource: "maybe", ofType: "mp3")
-//            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
-//        }
-//        catch{
-//            //ERROR
-//        }
-//        player.play()
-//        player.numberOfLoops = -1
-//    }
-    
-    
-    
+    @IBSegueAction func levelThree(_ coder: NSCoder) -> ARViewScene? {
+        let scene = ARViewScene(coder: NSCoder())
+        scene?.chooseScene(levelSceneString: "three")
+        return scene
+    }
 }

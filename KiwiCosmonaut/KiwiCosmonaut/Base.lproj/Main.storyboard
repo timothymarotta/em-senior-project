@@ -269,28 +269,37 @@
                                 <state key="normal" title="1" backgroundImage="level-marker-active">
                                     <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" destinationCreationSelector="levelOne:" id="7JQ-CY-Zz9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-JT-nPk">
+                                <rect key="frame" x="173" y="442" width="69" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
+                                <state key="normal" title="2" backgroundImage="level-marker-active">
+                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" destinationCreationSelector="levelTwo:" id="Frc-cl-EmI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVi-fi-GhE">
                                 <rect key="frame" x="173" y="655" width="69" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
-                                <state key="normal" title="3" backgroundImage="level-marker-inactive"/>
+                                <state key="normal" title="3" backgroundImage="level-marker-active"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" destinationCreationSelector="levelThree:" id="hdS-0T-mLF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="levels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC9-qP-ch2">
-                                <rect key="frame" x="120.5" y="98" width="173" height="39"/>
+                                <rect key="frame" x="120" y="98" width="173" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EthnocentricRg-Regular" family="Ethnocentric" pointSize="32"/>
                                 <color key="textColor" red="0.91484922170000005" green="0.41245907549999999" blue="0.33153551819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-JT-nPk">
-                                <rect key="frame" x="173" y="442" width="69" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NeuzeitGro-Bla" family="Neuzeit Grotesk" pointSize="30"/>
-                                <state key="normal" title="2" backgroundImage="level-marker-inactive">
-                                    <color key="titleColor" red="0.99215686270000003" green="0.96078431369999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DfD-KA-rUi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -521,9 +530,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nuL-xr-Ahe"/>
-        <segue reference="gGI-R9-11N"/>
-        <segue reference="Ecb-JO-fSq"/>
+        <segue reference="7JQ-CY-Zz9"/>
+        <segue reference="Zrg-M4-xpL"/>
+        <segue reference="KME-aw-cYv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Pause" width="148" height="203.5"/>
@@ -537,7 +546,6 @@
         <image name="credits-button" width="133" height="52"/>
         <image name="kiwi" width="668.5" height="650"/>
         <image name="level-marker-active" width="69" height="69"/>
-        <image name="level-marker-inactive" width="69" height="69"/>
         <image name="modal-credits" width="317" height="492"/>
         <image name="modal-failure" width="317" height="626"/>
         <image name="modal-paused" width="317" height="626"/>
