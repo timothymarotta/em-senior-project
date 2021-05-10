@@ -19,9 +19,9 @@ class ARLevelOne: UIViewController {
         
             let boxAnchor = try! Experience.loadLevelOne()
             arView.scene.anchors.append(boxAnchor)
-        boxAnchor.actions.notifyAction.onAction = { _in
-            levelOneEndTrigger()
-        }
+//        boxAnchor.actions.notifyAction.onAction = { _in
+//            levelOneEndTrigger()
+//        }
 
     }
     
