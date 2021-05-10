@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/catherinefiore/Documents/GitHub/em-senior-project/KiwiCosmonaut/KiwiCosmonaut/maybe.mp3">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/catherinefiore/Documents/GitHub/em-senior-project/KiwiCosmonaut/KiwiCosmonaut/Troubled_Chat_Bots.mp3">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
