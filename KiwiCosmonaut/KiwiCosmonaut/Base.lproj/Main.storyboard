@@ -45,7 +45,7 @@
                                 <state key="normal" image="start-button"/>
                                 <connections>
                                     <action selector="startButtonPressed:" destination="776-mf-ZP5" eventType="touchUpInside" id="7ir-OH-5mV"/>
-                                    <segue destination="UEf-fQ-wFx" kind="show" id="Zrg-M4-xpL"/>
+                                    <segue destination="UEf-fQ-wFx" kind="show" id="O4h-sJ-JGL"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiwi" translatesAutoresizingMaskIntoConstraints="NO" id="uL9-rm-mWA">
@@ -251,6 +251,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m7j-Wm-gVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1778" y="853"/>
+        </scene>
+        <!--Intro Video-->
+        <scene sceneID="4yG-Iz-Uvc">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="6dO-vd-jEY" customClass="IntroVideo" customModule="KiwiCosmonaut" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="joB-Ec-HNC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vm6-Pe-ko7">
+                                <rect key="frame" x="170" y="703" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="VideoToLevels:" destination="6dO-vd-jEY" eventType="touchUpInside" id="LdK-5L-2vU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Iji-zw-RdH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="u6x-vz-2P1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhC-9p-VxO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281" y="-840"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="u5t-qK-2x2">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="fs7-Wl-kIU" customClass="IntroVideo" customModule="KiwiCosmonaut" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WK3-Mq-4Ee"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mQb-vI-ZbC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271" y="-729"/>
         </scene>
         <!--Level Screen-->
         <scene sceneID="RGH-JV-1IV">
@@ -642,7 +678,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="lGP-HV-9ta"/>
-        <segue reference="Zrg-M4-xpL"/>
+        <segue reference="fQl-m7-ZGI"/>
         <segue reference="KME-aw-cYv"/>
     </inferredMetricsTieBreakers>
     <resources>

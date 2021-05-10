@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4942A02648F7BB00EA184D /* IntroVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F49429F2648F7BB00EA184D /* IntroVideo.swift */; };
 		5F56A24D26483B810003786C /* game_music_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F56A24C26483B800003786C /* game_music_1.mp3 */; };
 		5F786A22264232F50006EE6D /* maybe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A20264232F50006EE6D /* maybe.mp3 */; };
 		5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F49429F2648F7BB00EA184D /* IntroVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVideo.swift; sourceTree = "<group>"; };
 		5F56A24C26483B800003786C /* game_music_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music_1.mp3; sourceTree = "<group>"; };
 		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maybe.mp3; sourceTree = "<group>"; };
 		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				5FAFEA7A2648D03F00F3C5F6 /* ARLevelOne.swift */,
 				5FAFEA782648CD3F00F3C5F6 /* ARViewLevel2.swift */,
 				5FAFEA7C2648D33000F3C5F6 /* ARLevelThree.swift */,
+				5F49429F2648F7BB00EA184D /* IntroVideo.swift */,
 				DEBE5F6426392C580062A73C /* Fonts */,
 				5F786A24264235A20006EE6D /* Fonts */,
 				DE8A14AB262F62FC009A7185 /* Experience.rcproject */,
@@ -321,6 +324,7 @@
 				DE8A14AC262F62FC009A7185 /* Experience.rcproject in Sources */,
 				DEF26A402631FB72004C2EF7 /* LevelScreenViewController.swift in Sources */,
 				DE17D596262F6CA600497D19 /* StartScreenViewController.swift in Sources */,
+				5F4942A02648F7BB00EA184D /* IntroVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

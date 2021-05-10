@@ -18,7 +18,7 @@ class StartScreenViewController: UIViewController {
     @IBOutlet weak var creditsButton: UIButton!
     
     @IBAction func startButtonPressed(_ sender: Any) {
-        //player.stop()
+        player.stop()
         
     }
     
