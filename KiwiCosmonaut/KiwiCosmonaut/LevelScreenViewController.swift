@@ -7,25 +7,40 @@
 
 import Foundation
 import UIKit
-//import AVFoundation
+import AVFoundation
+import AVKit
 
 class LevelScreenViewController: UIViewController {
     
-    @IBSegueAction func levelOne(_ coder: NSCoder) -> ARViewScene? {
-        let scene = ARViewScene(coder: NSCoder())
-        scene?.chooseScene(levelSceneString: "one")
-        return scene
-    }
+    //var player:AVPlayer = AVPlayer()
+    let vc = AVPlayerViewController()
+     
+     override func viewDidLoad() {
+            super.viewDidLoad()
+       
+        }
     
-    @IBSegueAction func levelTwo(_ coder: NSCoder) -> ARViewScene? {
-        let scene = ARViewScene(coder: NSCoder())
-        scene?.chooseScene(levelSceneString: "two")
-        return scene
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "kiwiCosmoFinalCopy", ofType: "mp4")!))
+//        let layer = AVPlayerLayer(player: player)
+//        layer.frame = view.bounds
+//        layer.videoGravity = .resizeAspectFill
+//        view.layer.addSublayer(layer)
+//        //player.volume = 0
+//        player.play()
+
+        vc.player = player
+        NotificationCenter.default.addObserver(self, selector: #selector(playerDidFinishPlaying), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: vc.player?.currentItem)
+        present(vc, animated: true)
     }
+      
+    @objc func playerDidFinishPlaying(note: NSNotification) {
+           self.vc.dismiss(animated: true)
+       }
     
-    @IBSegueAction func levelThree(_ coder: NSCoder) -> ARViewScene? {
-        let scene = ARViewScene(coder: NSCoder())
-        scene?.chooseScene(levelSceneString: "three")
-        return scene
-    }
 }
+
+
+

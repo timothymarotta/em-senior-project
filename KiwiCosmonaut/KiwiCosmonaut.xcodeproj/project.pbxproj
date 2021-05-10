@@ -11,6 +11,10 @@
 		5F786A22264232F50006EE6D /* maybe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A20264232F50006EE6D /* maybe.mp3 */; };
 		5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */; };
 		5F786A25264235A20006EE6D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5F786A24264235A20006EE6D /* Fonts */; };
+		5FAFEA792648CD3F00F3C5F6 /* ARViewLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFEA782648CD3F00F3C5F6 /* ARViewLevel2.swift */; };
+		5FAFEA7B2648D03F00F3C5F6 /* ARLevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFEA7A2648D03F00F3C5F6 /* ARLevelOne.swift */; };
+		5FAFEA7D2648D33000F3C5F6 /* ARLevelThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFEA7C2648D33000F3C5F6 /* ARLevelThree.swift */; };
+		5FAFEA7F2648E5A000F3C5F6 /* kiwiCosmoFinalCopy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5FAFEA7E2648E5A000F3C5F6 /* kiwiCosmoFinalCopy.mp4 */; };
 		DE17D596262F6CA600497D19 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17D595262F6CA600497D19 /* StartScreenViewController.swift */; };
 		DE8A14A8262F62FC009A7185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A7262F62FC009A7185 /* AppDelegate.swift */; };
 		DE8A14AA262F62FC009A7185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A14A9262F62FC009A7185 /* ViewController.swift */; };
@@ -48,6 +52,10 @@
 		5F786A20264232F50006EE6D /* maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maybe.mp3; sourceTree = "<group>"; };
 		5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Troubled_Chat_Bots.mp3; sourceTree = "<group>"; };
 		5F786A24264235A20006EE6D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../Fonts; sourceTree = "<group>"; };
+		5FAFEA782648CD3F00F3C5F6 /* ARViewLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewLevel2.swift; sourceTree = "<group>"; };
+		5FAFEA7A2648D03F00F3C5F6 /* ARLevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLevelOne.swift; sourceTree = "<group>"; };
+		5FAFEA7C2648D33000F3C5F6 /* ARLevelThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLevelThree.swift; sourceTree = "<group>"; };
+		5FAFEA7E2648E5A000F3C5F6 /* kiwiCosmoFinalCopy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kiwiCosmoFinalCopy.mp4; sourceTree = "<group>"; };
 		DE17D595262F6CA600497D19 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		DE8A14A4262F62FC009A7185 /* KiwiCosmonaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCosmonaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8A14A7262F62FC009A7185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,11 +125,15 @@
 		DE8A14A6262F62FC009A7185 /* KiwiCosmonaut */ = {
 			isa = PBXGroup;
 			children = (
+				5FAFEA7E2648E5A000F3C5F6 /* kiwiCosmoFinalCopy.mp4 */,
 				5F56A24C26483B800003786C /* game_music_1.mp3 */,
 				5F786A20264232F50006EE6D /* maybe.mp3 */,
 				5F786A21264232F50006EE6D /* Troubled_Chat_Bots.mp3 */,
 				DE8A14A7262F62FC009A7185 /* AppDelegate.swift */,
 				DE8A14A9262F62FC009A7185 /* ViewController.swift */,
+				5FAFEA7A2648D03F00F3C5F6 /* ARLevelOne.swift */,
+				5FAFEA782648CD3F00F3C5F6 /* ARViewLevel2.swift */,
+				5FAFEA7C2648D33000F3C5F6 /* ARLevelThree.swift */,
 				DEBE5F6426392C580062A73C /* Fonts */,
 				5F786A24264235A20006EE6D /* Fonts */,
 				DE8A14AB262F62FC009A7185 /* Experience.rcproject */,
@@ -271,6 +283,7 @@
 				DE8A14B4262F62FD009A7185 /* LaunchScreen.storyboard in Resources */,
 				5F786A25264235A20006EE6D /* Fonts in Resources */,
 				5F786A23264232F50006EE6D /* Troubled_Chat_Bots.mp3 in Resources */,
+				5FAFEA7F2648E5A000F3C5F6 /* kiwiCosmoFinalCopy.mp4 in Resources */,
 				DEBE5F6826392C920062A73C /* NeuzeitGro-Reg.ttf in Resources */,
 				DE8A14B1262F62FD009A7185 /* Assets.xcassets in Resources */,
 				DEBE5F6926392C920062A73C /* ethnocentric rg.ttf in Resources */,
@@ -300,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAFEA7D2648D33000F3C5F6 /* ARLevelThree.swift in Sources */,
+				5FAFEA7B2648D03F00F3C5F6 /* ARLevelOne.swift in Sources */,
 				DE8A14AA262F62FC009A7185 /* ViewController.swift in Sources */,
+				5FAFEA792648CD3F00F3C5F6 /* ARViewLevel2.swift in Sources */,
 				DE8A14A8262F62FC009A7185 /* AppDelegate.swift in Sources */,
 				DE8A14AC262F62FC009A7185 /* Experience.rcproject in Sources */,
 				DEF26A402631FB72004C2EF7 /* LevelScreenViewController.swift in Sources */,
