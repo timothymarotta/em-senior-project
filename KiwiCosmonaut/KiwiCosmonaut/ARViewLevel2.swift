@@ -1,26 +1,24 @@
 //
-//  ViewController.swift
+//  ARViewLevel2.swift
 //  KiwiCosmonaut
 //
-//  Created by Timothy Marotta on 4/20/21.
+//  Created by Catherine Fiore on 5/9/21.
 //
 
+import Foundation
 import UIKit
 import RealityKit
 
-enum levelSceneError: Error {
-    case levelSceneNotFound
-}
-
-class ARViewScene: UIViewController {
+class ARScenelevel2: UIViewController {
     
-    @IBOutlet var arView: ARView!
-    //var levelScene: String = ""
+    
+    @IBOutlet weak var arView: ARView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-            let boxAnchor = try! Experience.loadLevelOne()
+        let boxAnchor = try! Experience.loadLevelTwo()
             arView.scene.anchors.append(boxAnchor)
     }
     
